@@ -4,6 +4,6 @@
 	[{/if}]
 	
 	[{include file=$oViewConf->getModulePath('oxac_accountmenu','views/inc/extendedmenu.tpl')}]
-
 [{/if}]
+
 [{$smarty.block.parent}]

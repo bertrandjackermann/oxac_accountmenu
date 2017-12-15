@@ -1,0 +1,25 @@
+{
+  "name": "oxid-academy/accountmenu",
+  "description": "My Account menu for cms pages",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop"],
+  "homepage": "https://www.oxid-esales.com/oxid-welt/academy/schulungen/",
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "oxac/oxac_accountmenu"
+    }
+  },
+  "version":  "1.0.0",
+  "require": {
+    "php":  ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "OxidEsales\\OxidAcademy\\AccountMenuModule\\": "../../../source/modules/oxac/oxac_accountmenu"
+    }
+  }
+}

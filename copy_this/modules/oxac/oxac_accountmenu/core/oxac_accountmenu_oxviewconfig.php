@@ -1,6 +1,8 @@
 <?php
-class oxac_accountmenu_oxviewconfig extends oxac_accountmenu_oxviewconfig_parent
-{
+
+namespace OxidEsales\OxidAcademy\AccountMenuModule\Core;
+
+class AccountMenu extends AccountMenu_parent {
 	
 	/**
 	 * Methode für Templating.
